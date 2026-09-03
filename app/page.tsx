@@ -1,10 +1,5 @@
+import { redirect } from "next/navigation";
 
 export default function Home() {
-  return (
-    <>
-    <main>
-      <h1>Bookmarkly</h1>
-    </main>
-    </>
-  );
+    redirect("/register");
 }
